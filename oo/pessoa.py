@@ -21,6 +21,12 @@ if __name__ == '__main__':
     print(dejacir.idade)
     for filho in dejacir.filhos:
         print(filho.nome)
+    dejacir.sobrenome = 'Marques'
+    del dejacir.filhos
+    print(dejacir.__dict__)
+    print(elias.__dict__)
+
+
 
 
 
