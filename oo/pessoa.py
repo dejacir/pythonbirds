@@ -25,6 +25,7 @@ if __name__ == '__main__':
     del dejacir.filhos
     print(dejacir.__dict__)
     print(elias.__dict__)
+    print(calebe.__dict__)
 
 
 
